@@ -4,6 +4,11 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background: #080808;
     color: #fff;
@@ -27,7 +32,7 @@ nav{
 }
 
 .logo{
-    width: 440px;
+    width: 140px;
 }
 
 nav ul li{
@@ -430,4 +435,10 @@ nav .fa-solid{
     .copyright{
         font-size: 14px;
     }
+}
+
+#msg{
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
 }
